@@ -2,13 +2,13 @@ const height = 6; //number of guesses
 const width = 5; //length of words
 
 let row = 0; //current guess
-let col = 0; //current letting in the guess
+let col = 0; //current letter in the guess
 
 let gameOver = false;
 //let word = "SQUID";
 let word;
 let wordsList;
-console.log(word);
+//console.log(word);
 
 window.onload = async function() {
     wordsList = await getWord("words.txt");
